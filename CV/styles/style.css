@@ -1,0 +1,125 @@
+main {
+    margin-top: 20px;
+    background: #1a1919;
+    scroll-margin: 55px;
+    margin: #e7e4e4;
+  }
+body {
+    font-family: Arial, sans-serif;
+    margin: 0; 
+    padding: 20px;
+    color: #333;
+    background-color: #030303; 
+    border-radius: 20px; 
+        }
+  header img {
+    float: right; 
+    margin-right: 150px; 
+    border: 2px solid rgb(238, 233, 233);
+    border-radius: 40px;
+  } 
+  h1, h2, h3 {
+    color: #007BFF;
+  }
+  p {
+    color: #f7f6f6;
+  }
+  ul {
+    list-style-type: none;
+    color: #f7f6f6;
+    padding: 0;
+  }
+  li {
+    margin-bottom: 10px;
+    color: #f7f6f6;
+  }
+  a {
+    color: #007BFF;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  footer {
+    margin-top: 20px;
+    border-top: 2px solid rgb(247, 244, 244);
+    padding-top: 10px;
+    position: relative;
+  }
+
+   /* Estilo Matrix para el footer */
+   .matrix-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+  }
+
+  .matrix {
+    font-size: 14px;
+    line-height: 20px;
+    position: absolute;
+    opacity: 0.7;
+  }
+
+  .matrix span {
+    display: block;
+    float: left;
+    margin-right: 5px;
+    color: #00fc00; /* Cambio de color a verde */
+  }
+
+  .matrix span:last-child {
+    margin-right: 0;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    color: #f7f6f6;
+    background-color: #030303; 
+    border-radius: 20px; 
+}
+
+header {
+    background: #1a1919;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+h1, h2, h3 {
+    color: #007BFF;
+}
+
+section {
+    background: #2a2929;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* Otros estilos permanecen igual */
+
+.matrix {
+    color: #00fc00; /* Color verde para efecto Matrix */
+    opacity: 0.5; /* Menor opacidad para sutileza */
+}
+@media only screen and (max-width: 600px) {
+  header img {
+    width: 100px; /* Reducir el tamaño de la imagen en pantallas pequeñas */
+    margin-right: 20px;
+  }
+
+  header {
+    flex-direction: column; /* Apilar imagen y título verticalmente */
+    align-items: center; /* Centrar elementos */
+  }
+
+  .matrix {
+    font-size: 10px; /* Reducir tamaño de fuente para el efecto Matrix */
+  }
+}
